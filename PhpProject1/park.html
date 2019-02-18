@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Vehicle</title>
+        <link rel="stylesheet" href="bootstrap/bootstrap1/css/bootstrap.min.css" type="text/css">
+        <script type="text/javascript" src="bootstrap/bootstrap1/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/bootstrap1/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.php" class="navbar-brand">Vehicle parking</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id='cont1'>
+         <div class="col-xs-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                    <h1>Park my Vehicle</h1>
+                             </div>
+                            <div class="panel-body">
+                                <form method="post" action="park.php">
+                                    <div><h2>Enter your Vehicle id & owner id</h2></div>
+                                    <div><h3>Owner id</h3></div>
+                                    <input type="text" name="ownerid" class="form-control" placeholder="owner ID" required><br>
+                                    <div><h3>Vehicle number</h3></div>
+                                    <input type="text" name="vehicleid" class="form-control" placeholder="vehicle number" required><br>
+                                    <input type="submit" value="submit" class="btn btn-primary btn-block">
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+#banner_image
+{
+     padding-top: 75px;
+     color: #f8f8f8;
+     background: url(pics/img1.jpg);
+     background-size: 1450px 750px;
+     background-repeat: no-repeat;
+
+}
+#banner_content1
+{
+     position: relative;
+     padding-top: 6%;
+     padding-bottom: 6%;
+     margin-top: 12%;
+     margin-bottom: 12%;
+     background-color: rgba(0, 0, 0, 0.7); 
+     max-width: 660px; 
+}
+#foot
+{
+      padding: 10px ;
+      background-color: #101010;
+      color:#9d9d9d;
+      bottom: 0;
+      width: 100%; 
+}
+#container1
+{
+    padding-bottom: 10px;
+    
+}
+
+#cont1{
+    padding-top: 100px;
+        padding-bottom: 100px
+}
+#cont2{
+    padding-top: 60px;
+    
+}
+table{
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+}
+th{
+    text-align: left;
+    background-color: #ececec;
+}
